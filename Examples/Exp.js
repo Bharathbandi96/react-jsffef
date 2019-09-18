@@ -1,11 +1,14 @@
-
 import React from 'react'
-import ReactDom from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
-export default class Exp extends React.Component {
-  render(){
-    return(
-        <div>Hello</div>
-    );
-  }
+export default class Layout extends React.Component {
+render(){
+  return(
+    <div>
+      <Header />
+      <Footer />
+    </div>
+  );
+}
 }
