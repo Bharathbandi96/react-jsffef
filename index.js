@@ -1,26 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import ReactDom from 'react'
 import Hello from './Hello';
 import './style.css';
+import DateTime from'./Examples/Date.js'
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
 
-  render() {
-    return (
-      <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-      </div>
-    );
-  }
-}
-
-render(<App />, document.getElementById('root'));
+render(<DateTime />, document.getElementById('root'));
