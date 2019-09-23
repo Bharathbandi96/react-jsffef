@@ -10,7 +10,7 @@ export default class Header extends React.Component {
 render(){
   return(
     <div>
-    <h2> Hello you can change the header dynamically...! Can Try below</h2>
+    <h2> Hello you can change the header dynamically...! You Can Try It Below</h2>
     <Title title={this.props.title}/>
     <input  value = {this.props.title} onChange = {this.handleChange.bind(this)}/>
     </div>
